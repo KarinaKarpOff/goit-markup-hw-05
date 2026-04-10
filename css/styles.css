@@ -615,7 +615,6 @@ a {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  margin-top: 24px;
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
@@ -634,7 +633,7 @@ a {
   margin-bottom: 8px;
 }
 
-.modal-field.comment {
+.modal-field-comment {
   margin-bottom: 16px;
 }
 
@@ -646,6 +645,10 @@ a {
   color: #8e8f99;
   margin-bottom: 4px;
   display: inline-block;
+}
+
+.modal-check {
+  margin-bottom: 24px;
 }
 
 .modal-field-wrapper {

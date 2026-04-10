@@ -599,7 +599,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <div class="close-button">
           <button type="button" class="modal-close-button">
@@ -654,7 +654,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field comment">
+          <div class="modal-field-comment">
             <label for="usercomment" class="modal-label">Comment</label>
             <textarea
               name="usercomment"
@@ -663,13 +663,15 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-checkbox">
             <input
               type="checkbox"
               name="policy"
               id="policy"
               class="modal-check visually-hidden"
             />
+          </div>
+          <div class="modal-check">
             <label for="policy" class="modal-check-label">
               <span class="check-mark"
                 ><svg class="check-icon" width="10" height="8">
